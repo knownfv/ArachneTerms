@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arachne — Personal AI Assistant</title>
+<meta name="description" content="Arachne is a personal Windows AI assistant combining AI, memory, voice, web search, screen understanding and supported PC automation.">
+<style>
+:root{--bg:#070b14;--card:#101827;--line:#26344c;--text:#f5f7fb;--muted:#aeb9cb;--accent:#70b7ff;--max:1100px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 5%,#16304f 0,transparent 32%),radial-gradient(circle at 90% 15%,#27204d 0,transparent 28%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(var(--max),calc(100% - 40px));margin:auto}
+nav{position:sticky;top:0;z-index:5;background:#070b14dd;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}.nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:21px;font-weight:800;color:white}.brand b{color:var(--accent)}.links{display:flex;gap:20px;flex-wrap:wrap}.links a{font-size:14px;color:#cbd5e1}
+.hero{padding:105px 0 85px}.pill{display:inline-block;border:1px solid var(--line);background:#101827cc;border-radius:999px;padding:7px 13px;color:#cbd5e1;font-size:13px}
+h1{font-size:clamp(46px,8vw,82px);line-height:1;letter-spacing:-3px;margin:25px 0}.grad{background:linear-gradient(90deg,#fff,var(--accent),#b7a8ff);color:transparent;background-clip:text}
+.lead{max-width:760px;color:var(--muted);font-size:20px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 18px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:white;font-weight:700}.primary{background:var(--accent);border-color:var(--accent);color:#06101b}
+section{padding:75px 0;border-top:1px solid #ffffff0d}h2{font-size:34px;line-height:1.2;margin:0 0 10px}.intro{color:var(--muted);max-width:760px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.card{padding:24px;border:1px solid var(--line);border-radius:18px;background:#101827dd}.card h3{margin:0 0 8px}.card p{margin:0;color:var(--muted)}
+.legal{max-width:900px}.legal h3{margin-top:34px}.legal p,.legal li{color:#c3ccda}.legal ul{padding-left:22px}.notice{margin:24px 0;padding:17px;border:1px solid #354762;border-radius:14px;background:#0d1626;color:#cbd7e7}.updated{font-size:13px;color:#8592a7}
+.hidden{display:none!important}footer{padding:45px 0 60px;border-top:1px solid #ffffff0d;color:var(--muted)}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.nav{height:auto;padding:15px 0}.hero{padding:75px 0 60px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#home">Arachne<b>.</b></a><div class="links"><a href="#home">Home</a><a href="#privacy">Privacy</a><a href="#terms">Terms</a></div></div></nav>
+
+<main>
+<div id="home">
+<section class="hero" style="border-top:0"><div class="wrap">
+<span class="pill">Personal AI assistant for Windows</span>
+<h1>Meet <span class="grad">Arachne.</span></h1>
+<p class="lead">Arachne is a personal Windows AI assistant designed to make everyday computer work simpler. It combines AI, memory, voice, web search, screen understanding and supported PC automation in one system.</p>
+<div class="buttons"><a class="btn primary" href="#privacy">Privacy Policy</a><a class="btn" href="#terms">Terms of Service</a></div>
+</div></section>
+
+<section><div class="wrap"><h2>What Arachne does</h2><p class="intro">Arachne is built around one assistant that can understand a request, use the appropriate tool and return control to you.</p>
+<div class="grid">
+<div class="card"><h3>Conversation</h3><p>Answers questions, explains concepts, helps plan tasks and works with information you provide.</p></div>
+<div class="card"><h3>Windows control</h3><p>Can perform supported local actions such as opening applications, controlling media and navigating Windows features.</p></div>
+<div class="card"><h3>Screen understanding</h3><p>Can inspect the visible screen when a task requires understanding what is displayed.</p></div>
+<div class="card"><h3>Voice</h3><p>Supports voice interaction so you can communicate without constantly typing.</p></div>
+<div class="card"><h3>Web search</h3><p>Can use search services when current public information is needed.</p></div>
+<div class="card"><h3>Memory</h3><p>Can store selected information needed to make future conversations more useful.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><h2>Google integrations</h2><p class="intro">Arachne may connect to Google services when you explicitly authorize an integration. For Google Calendar, the planned feature uses read-only calendar access when viewing is all that is required.</p><div class="notice"><b>Your authorization matters.</b> Google account access is controlled through Google's OAuth permission system. Visiting this website does not grant Arachne access to your Google account.</div></div></section>
+
+<section><div class="wrap"><h2>Personal project</h2><p class="intro">Arachne is currently a personal project. Its goal is to provide a practical assistant for a user's own computer and workflows rather than operate as an advertising platform or social network.</p></div></section>
+</div>
+
+<section id="privacy" class="legal hidden"><div class="wrap">
+<a href="#home">← Back to Arachne</a><h2>Privacy Policy</h2><p class="updated">Last updated: September 17, 2026</p>
+<div class="notice"><b>Important:</b> This is a project privacy-policy template, not legal advice. Before publishing Arachne for other users, make sure every statement matches the actual software and data flows and consider having the final policy reviewed by a qualified adult or legal professional.</div>
+<h3>1. Overview</h3><p>Arachne ("Arachne", "we", "us", or "the application") is a personal AI assistant for Windows. This Privacy Policy explains what information Arachne may process, why it is processed, and how information may be handled when users use Arachne or connect third-party services.</p>
+<h3>2. Information Arachne may process</h3><ul><li>Messages and requests entered into Arachne.</li><li>Voice input when voice interaction is used.</li><li>Information visible on the computer screen when screen-understanding features are explicitly used.</li><li>Selected memory information retained to make future conversations more useful.</li><li>Technical information needed to operate the application, such as logs or error information.</li><li>Information from third-party services that the user explicitly connects and authorizes.</li></ul>
+<h3>3. Google user data</h3><p>If you connect a Google service, Arachne may receive data from that service only after you authorize access through Google's OAuth authorization process.</p><p>For Google Calendar, Arachne is intended to request the minimum access necessary for the calendar feature. When the feature only needs to view calendar information, Arachne uses read-only calendar permission rather than permission to create, edit or delete calendar data.</p><p>Google user data is used only to provide the Google-integrated functionality described in Arachne. Arachne does not sell Google user data or use it for advertising.</p><p>Arachne will not use Google user data for a purpose unrelated to the feature for which the user granted access. If the architecture changes, this policy will be updated to reflect the new practice.</p>
+<h3>4. AI providers</h3><p>Arachne may send a user's request or necessary context to an AI model provider to generate a response. The provider can change as the project evolves. Only information necessary for the requested feature should be sent.</p>
+<h3>5. Memory</h3><p>Arachne may store selected information in its memory system so future conversations can be more useful. Memory should be limited to information necessary for the assistant's intended functionality.</p>
+<h3>6. Local computer access</h3><p>Arachne can be configured to interact with the user's Windows computer. This may include opening applications, navigating supported interfaces, controlling media or reading visible screen information. These capabilities are intended to operate only when requested or otherwise authorized by the user.</p>
+<h3>7. Sharing</h3><p>Arachne does not sell personal information. Information may be transmitted to service providers when necessary to operate a feature, including AI, search, hosting, database, automation or Google services explicitly connected by the user.</p>
+<h3>8. Data retention</h3><p>Retention depends on the feature and technical systems used by Arachne. A production release should document exact retention periods for account data, memory, logs and third-party tokens. This policy should not be treated as a guarantee of a specific deletion timeline until those periods are formally established.</p>
+<h3>9. Security</h3><p>Arachne uses reasonable technical measures intended to protect information. No internet-connected system can guarantee absolute security. Users should not provide passwords, authentication codes, payment information or other highly sensitive credentials to Arachne unless a specific feature has been designed and disclosed for that purpose.</p>
+<h3>10. Third-party services</h3><p>Arachne may integrate with third-party services including Google and AI, search, hosting, database or automation providers. Those services have their own privacy policies and terms.</p>
+<h3>11. Children's privacy</h3><p>Arachne is not intended to be a service for collecting personal information from children. If Arachne is later offered publicly, the operator should establish an age-appropriate privacy and consent process before allowing public accounts or broad data collection.</p>
+<h3>12. Changes</h3><p>This Privacy Policy may be updated when Arachne's features, integrations or data practices change. The "Last updated" date will be changed when material updates are made.</p>
+<h3>13. Contact</h3><p>Privacy questions can be sent to <b>alameenolayiwola220@gmail.com</b>. </p>
+</div></section>
+
+<section id="terms" class="legal hidden"><div class="wrap">
+<a href="#home">← Back to Arachne</a><h2>Terms of Service</h2><p class="updated">Last updated: September 17, 2026</p>
+<div class="notice"><b>Important:</b> This is a project terms template, not legal advice. Before using it for a public service, make sure the final terms accurately describe the actual service and applicable law.</div>
+<h3>1. Acceptance</h3><p>These Terms of Service govern your use of Arachne. By using Arachne, you agree to use it lawfully and responsibly and to comply with the rules of third-party services connected to it.</p>
+<h3>2. Description</h3><p>Arachne is a personal AI assistant that may provide conversation, memory, voice interaction, web search, screen understanding and supported Windows computer controls. Features may change, be added or be removed.</p>
+<h3>3. User responsibility</h3><p>You are responsible for reviewing actions performed by Arachne and deciding whether an action should be taken. AI-generated information can be inaccurate, incomplete or outdated. Important information should be independently verified.</p>
+<h3>4. Computer control</h3><p>Arachne may perform actions on a connected Windows computer. Do not rely on Arachne alone for irreversible, financial, legal, medical or other high-impact decisions.</p>
+<h3>5. Third-party services</h3><p>Arachne may rely on third-party services. Use of those integrations may also be subject to the third party's terms, policies and technical limitations.</p>
+<h3>6. Google services</h3><p>If you connect Google services, you authorize Arachne through Google's authorization system. Arachne's use of Google data is limited to the functionality described in its Privacy Policy. You may revoke an authorization through your Google Account controls.</p>
+<h3>7. Availability</h3><p>Arachne is a project and may experience bugs, downtime, changes or interruptions. No guarantee is made that every feature will always work or remain available.</p>
+<h3>8. No warranty</h3><p>To the maximum extent permitted by applicable law, Arachne is provided without warranties that it will be accurate, uninterrupted, secure or suitable for a particular purpose.</p>
+<h3>9. Limitation of responsibility</h3><p>Arachne should not be used as the sole basis for decisions involving safety, health, finances, legal rights, account security or other high-impact matters.</p>
+<h3>10. Prohibited use</h3><p>You must not use Arachne to violate applicable laws, abuse third-party services, interfere with other people's accounts or intentionally bypass security or access controls.</p>
+<h3>11. Changes</h3><p>These Terms may be updated as Arachne changes. The "Last updated" date identifieshe current published version.</p>
+<h3>12. Contact</h3><p>Questions about these Terms can be sent to <b>alameenolayiwola220@gmail.com</b>. </p>
+</div></section>
+</main>
+
+<footer><div class="wrap foot"><div>© 2026 Arachne. Personal AI assistant project.</div><div><a href="#privacy">Privacy</a> · <a href="#terms">Terms</a> · <a href="mailto:alameenolayiwola220@gmail.com">Contact</a></div></div></footer>
+
+<script>
+function route(){
+  const p=location.hash.slice(1).toLowerCase()||"home";
+  const page=["home","privacy","terms"].includes(p)?p:"home";
+  ["home","privacy","terms"].forEach(id=>{
+    const el=document.getElementById(id);
+    if(el) el.classList.toggle("hidden",id!==page);
+  });
+  document.title=page==="privacy"?"Arachne — Privacy Policy":page==="terms"?"Arachne — Terms of Service":"Arachne — Personal AI Assistant";
+  scrollTo(0,0);
+}
+addEventListener("hashchange",route); route();
+</script>
+</body>
+</html>
